@@ -1,5 +1,15 @@
 {
-  "cleaned_fake_zh": 2724,
-  "words": 2823,
-  "note": "Chinese cards show zh only when present; otherwise use Baidu Hanyu button."
+  "name": "chinese-vocabulary-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18"
+  }
 }
